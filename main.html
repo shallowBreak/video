@@ -1,0 +1,1918 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>音平商城</title>
+    <link rel="shortcut icon" href="./image/bitbug_favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/react.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <!-- 顶部元素 -->
+    <div class="topPicture">
+        <a href="#" class="AtopPicture"></a>
+    </div>
+    <!-- 顶部元素结束 -->
+    <!-- 顶部导航栏 -->
+    <div class="topNav">
+        <div class="container clearfix">
+            <div class="tnLeft">
+                <p>
+                    <span class="welcom">
+                            您好！欢迎来到音平商城！
+                    </span>
+                    <span class="lr">
+                        [
+                            <a href="#" id="register">请登录</a>
+                            |
+                            <a href="#" id="login">免费注册</a>
+                        ]
+                    </span>
+                </p>
+            </div>
+            <div class="tnRight">
+                <h3>
+                    <a class="myvideo" href="#">
+                        <i class="people">
+                            <!-- <img src="../image/peple.svg" alt="" srcset=""> -->
+                        </i>
+                        <span>我的音平
+                                <em></em>
+                        </span>
+                        
+                    </a>
+                    <ul>
+                        <li><a href="#">我的订单</a></li>
+                        <li><a href="#">我的收藏</a></li>
+                        <li><a href="#">我要评价</a></li>
+                        <li><a href="#">我要优惠券<span>0</span></a></li>
+                    </ul>
+                </h3>
+                <h3>
+                    <a href="#">
+                            <i class="car">
+                                <!-- <img src="../image/购物车.svg" alt="" srcset=""> -->
+                            </i>
+                   
+                        <span>我的购物车</span>
+                        <button class="carNum">0</button>
+                    </a>
+                </h3>
+                <h3>
+                    <a href="#">
+                        <i class="heart">
+                            <!-- <img src="../image/心.svg" alt="" srcset=""> -->
+                        </i>
+                        <span>企业采购</span>
+                    </a>
+                </h3>
+                    
+                <h3>
+                    <a class="myvideo" href="#">
+                        <i class="people">
+                           <img src="https://static.ingping.com/yp/images/onlinekefu-1.0.3.gif" alt="" srcset="">
+                        </i>
+                        <span>客服服务
+                                <em></em>
+                        </span>
+                        
+                    </a>
+                    <ul class="phone">
+                        <div class="tnt">
+                            <img class="imgs" src="//static.ingping.com/yp/images/ingge-1.0.1.png" onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);">
+                            <div class="server">
+                                <p class="serverP clearfix">
+                                    <a href="#">在线客服</a>
+                                </p>
+                                <p class="num">
+                                    在线时间：08:30 - 23:00
+                                </p>
+                            </div>
+                        </div>
+                        <div class="tnm clearfix">
+                            <figure class="clearfix">
+                                <span>
+                                    <img src="../image//电话.svg" alt="" srcset="">
+                                </span>
+                                <figcaption>
+                                    <p class="num1">400 700 3638</p>
+                                    <p class="serverTime">服务时间：08:30 - 23:00</p>
+                                </figcaption>
+                            </figure>
+                            
+                        </div>
+                        <div class="tnb clearfix">
+                            <div class="clearfix">
+                                <div class="tnb_left">
+                                    <img src="https://static.ingping.com/yp/images/wechat-icon-1.0.0.png" alt="" srcset="">
+                                </div>
+                                <div class="tnb_middle">
+                                    <p>微信客服</p>
+                                    <p>扫一扫</p>
+                                </div>
+                                <div class="tnb_right">
+                                    <img src="https://static.ingping.com/yp/images/wechatqr-1.0.0.jpg" alt="" srcset="">
+                                </div>
+                            </div>
+                        </div>
+                    </ul>
+                </h3>
+            </div>
+        </div>
+    </div>
+    <!-- 顶部导航结束 -->
+    <!-- 搜索那一行  头部-->
+    <header>
+        <div class="container">
+            <div class="headerMain clearfix">
+                <div class="logo1">
+                    <a href="#">
+                        <img src="https://img.ingping.com/images/logo.png" alt="" srcset="">
+                    </a>
+                </div>
+                <div class="logo2">
+                    <a href="#">
+                        <img src="https://img.ingping.com/images/ad_images/201812/20181206134502016682.gif" alt="" srcset="">
+                    </a>
+                </div>
+
+    <!-- 搜索部分的 -->
+                <div class="searchbox">
+                    <div class="search clearfix">
+                        
+                        <form action="#" class="clearfix">
+                            <div class="formsearch">
+                                <input type="text" id="search">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            wdo
+                                        </a>
+                                    </li>
+                                    <li>
+                                            <a href="#">
+                                                wdo
+                                            </a>
+                                        </li>
+                                        <li>
+                                                <a href="#">
+                                                    wdo
+                                                </a>
+                                            </li>
+                                </ul>
+                                <input type="submit" value="搜索" id="searchbtn">
+                                
+                            </div>
+                            <div class="formtit">
+                                <a href="#">专业录音</a>
+                                <a href="#">K歌声卡</a>
+                                <a href="#">吉他</a>
+                                <a href="#">录音声卡</a>
+                                <a href="#">MIDI键盘</a>
+                                <a href="#">电容麦</a>
+                                <a href="#">富特斯克声卡</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+    <!-- 右边那两个图 -->
+                <div class="searchR">
+                    <span>
+                        <a href="#">
+                            <img src="https://static.ingping.com/yp/images/mb-1.0.0.jpg" alt="" srcset="">
+                        </a>
+                        <div class="smile">
+                            <div>
+                                <img src="https://static.ingping.com/yp/images/wx_code-1.0.1.jpg" alt="" srcset="">
+                            </div>
+                        </div>
+                    </span>
+                    <b></b>
+                    <span>
+                        <a href="#">
+                            <img src="https://static.ingping.com/yp/images/head_dot_a-1.0.1.jpg" alt="" srcset="">
+                        </a>
+                    </span>
+                </div>
+            
+        </div>
+
+        <div class="container clearfix">
+            <div class="headerBottom">
+    <!-- 二级菜单 -->
+                <div class="mainNav">
+                    <div class="allShopping">
+                        <h2>
+                            <a href="#">全部商品分类</a>
+                        </h2>
+                        <ul>
+                            <li>
+                                <div class="shopNav">
+                                    <a href="#">声卡</a>
+                                    <a href="#">调音台</a>
+                                    <a href="#">控制器</a>
+                                </div>
+                                <dl class="shopNav-dd">
+                                    <dd>
+                                        <a href="#">K歌声卡</a>
+                                        <a href="#">专业声卡</a>
+                                        <a href="#">调音台</a>
+                                    </dd>
+                                </dl>
+                                <div class="shopclass clearfix" >
+                                        <div class="sound clearfix">
+                                            <div class="mainSoundL">
+                                                <dl class="clearfix">
+                                                    <dt>
+                                                        <a href="#">声卡</a>
+                                                    </dt>
+                                                    <dd>
+                                                        <a href="#">专业录音声卡
+                                                            <span>/</span>
+                                                        </a>
+                                                        <a href="#">网络K歌声卡
+                                                        <span>/</span>
+                                                        </a>
+                                                        <a href="#">手机直播声卡
+                                                            <span>/</span>
+                                                        </a>
+                                                        <a href="#">游戏影音声卡
+                                                            <span>/</span>
+                                                        </a>
+                                                        <a href="#">音乐HIFI声卡
+                                                            <span>/</span>
+                                                        </a>
+                                                        <a href="#">MIDI声卡
+                                                            <span>/</span>
+                                                        </a>
+                                                        <a href="#">PCI声卡
+                                                            <span>/</span>
+                                                        </a>
+                                                        <a href="#">PCI-E声卡
+                                                            <span>/</span>
+                                                        </a>
+                                                        <a href="#">外置声卡
+                                                            <span>/</span>
+                                                        </a>
+                                                        <a href="#">火线声卡
+                                                            <span>/</span>
+                                                        </a>
+                                                        <a href="#">录音套装
+                                                            <span>/</span>
+                                                        </a>
+                                                        <a href="#">解码器
+                                                            <span>/</span>
+                                                        </a>
+                                                        <a href="#">音频工作站
+                                                            <span>/</span>
+                                                        </a>
+                                                        <a href="#">苹果声卡
+                                                            <span>/</span>
+                                                        </a>
+                                                        <a href="#">扩展卡
+                                                            <span>/</span>
+                                                        </a>
+                                                        <a href="#">声卡调试
+                                                            <span>/</span>
+                                                        </a>
+                                                        <a href="#">声卡套装
+                                                            <span>/</span>
+                                                        </a>
+                                                    </dd>
+                                                </dl>
+                                                <dl class="clearfix">
+                                                        
+                                                    <dt>
+                                                        <a href="#">调音台</a>
+                                                    </dt>
+                                                    <dd>
+                                                        <a href="#">USB调音台
+                                                            <span>/</span>
+                                                        </a>
+                                                        <a href="#">数字调音台
+                                                            <span>/</span>
+                                                        </a>
+                                                        <a href="#">录音调音台
+                                                            <span>/</span>
+                                                        </a>
+                                                        <a href="#">带效果调音台
+                                                            <span>/</span>
+                                                        </a>
+                                                        <a href="#">带功放调音台
+                                                            <span>/</span>
+                                                        </a>
+                                                        <a href="#">DJ调音台
+                                                            <span>/</span>
+                                                        </a>
+                                                    </dd>
+                                                </dl>
+                                                <dl class="clearfix">
+                                                        
+                                                    <dt>
+                                                        <a href="#">控制器</a>
+                                                    </dt>
+                                                    <dd>
+                                                        <a href="#">录音监听控制器
+                                                            <span>/</span>
+                                                        </a>
+                                                        <a href="#">立体声监听控制器
+                                                            <span>/</span>
+                                                        </a>
+                                                    </dd>
+                                                </dl>
+                                                <dl class="clearfix">
+                                                        
+                                                    <dt>
+                                                        <a href="#">DI盒</a>
+                                                    </dt>
+                                                    <dd>
+                                                        <a href="#">有源DI盒
+                                                            <span>/</span>
+                                                        </a>
+                                                        <a href="#">无缘DI盒
+                                                            <span>/</span>
+                                                        </a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                            <div class="mainSoundR">
+                                                <div class="mainSR">
+                                                    <dl class="mainDRT clearfix">
+                                                        <dt>
+                                                            <p>套装分类</p>
+                                                        </dt>
+                                                        <a href="#">
+                                                            录音编曲
+                                                            <span>></span>
+                                                        </a>
+                                                        <a href="#">
+                                                            网络主播
+                                                            <span>></span>
+                                                        </a>
+                                                        <a href="#">
+                                                            手机直播
+                                                            <span>></span>
+                                                        </a>
+                                                        <a href="#">
+                                                            演出音箱
+                                                            <span>></span>
+                                                        </a>
+                                                        <a href="#">
+                                                            家庭KTV
+                                                            <span>></span>
+                                                        </a>
+                                                        <a href="#">
+                                                            影视录音
+                                                            <span>></span>
+                                                        </a>
+                                                        <a href="#">
+                                                            乐器设备
+                                                            <span>></span>
+                                                        </a>
+                                                        <a href="#">
+                                                            音乐欣赏
+                                                            <span>></span>
+                                                        </a>
+                                                        <a href="#">
+                                                            会议工程
+                                                            <span>></span>
+                                                        </a>
+                                                        <a href="#">
+                                                            家庭影院
+                                                            <span>></span>
+                                                        </a>
+                                                    </dl>
+                                                    <dl class="mainDRB clearfix">
+                                                        <dt>品牌精选</dt>
+                                                        <dd>
+                                                            <a href="#">
+                                                                <img src="https://img.ingping.com/images/brandlogo/L/201204021521500957606.gif" alt="" srcset="">
+                                                            </a>
+                                                            <a href="#">
+                                                                <img src="https://img.ingping.com/images/brandlogo/L/201703141800410023840.gif" alt="" srcset="">
+                                                            </a>
+                                                            <a href="#">
+                                                                <img src="https://img.ingping.com/images/brandlogo/L/201205211641320708609.gif" alt="" srcset="">
+                                                            </a>
+                                                            <a href="#">
+                                                                <img src="https://img.ingping.com/images/brandlogo/L/201306151216260722653.jpg" alt="" srcset="">
+                                                            </a>
+                                                            <a href="#">
+                                                                <img src="https://img.ingping.com/images/brandlogo/L/201204021447130848835.gif" alt="" srcset="">
+                                                            </a>
+                                                            <a href="#">
+                                                                <img src="https://img.ingping.com/images/brandlogo/L/201204021452530468834.gif" alt="" srcset="">
+                                                            </a>
+                                                            <a href="#">
+                                                                <img src="https://img.ingping.com/images/brandlogo/L/201204021441150239796.gif" alt="" srcset="">
+                                                            </a>
+                                                            <a href="#">
+                                                                <img src="https://img.ingping.com/images/brandlogo/L/201411211142090341625.gif" alt="" srcset="">
+                                                            </a>
+                                                        </dd>
+                                                    </dl>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    
+                                </div>
+                            </li>
+                            <li>
+                                <div class="shopNav">
+                                    <a href="#">麦克风</a>
+                                    <a href="#">耳机</a>
+                                    <a href="#">扩音器</a>
+                                </div>
+                                <dl class="shopNav-dd">
+                                    <dd>
+                                        <a href="#">电容麦</a>
+                                        <a href="#">无线麦</a>
+                                        <a href="#">音乐耳机</a>
+                                    </dd>
+                                </dl>
+                                <div class="shopclass clearfix" >
+                                    <div class="sound clearfix">
+                                        <div class="mainSoundL">
+                                            <dl class="clearfix">
+                                                <dt>
+                                                    <a href="#">麦克风</a>
+                                                </dt>
+                                                <dd>
+                                                    <a href="#">电容麦克风
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">动圈麦克风
+                                                    <span>/</span>
+                                                    </a>
+                                                    <a href="#">录音麦克风
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">手机麦克风
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">影视录音麦克风
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">KTV/演出麦克风
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">乐器麦克风
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">USB麦克风
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">无线麦克风
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">电子管麦克风
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">采访麦克风
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">会议麦克风
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">测试麦克风
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">语音麦克风
+                                                        <span>/</span>
+                                                    </a>
+                    
+                                                </dd>
+                                            </dl>
+                                            <dl class="clearfix">
+                    
+                                                <dt>
+                                                    <a href="#">耳机</a>
+                                                </dt>
+                                                <dd>
+                                                    <a href="#">音乐耳机
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">监听耳机
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">手机耳机
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">耳麦
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">游戏耳机
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">运动耳机
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">头戴式耳机
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">耳塞
+                                                        
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">入耳式耳机
+                                                        
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">耳挂式耳机
+                                                        
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">便携式耳机
+                                                        
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">无线耳机
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">蓝牙耳机
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">2.4G耳机
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">带线控耳机
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">HIFI耳机
+                                                        <span>/</span>
+                                                    </a>
+                                                </dd>
+                                            </dl>
+                                            <dl class="clearfix">
+                                                    
+                                                <dt>
+                                                    <a href="#">扩音器</a>
+                                                </dt>
+                                                <dd>
+                                                    <a href="#">便携式扩音器
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">窗口对讲机
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">无线导游系统
+                                                        <span>/</span>
+                                                    </a>
+                                                </dd>
+                                            </dl>
+                                        </div>
+                                        <div class="mainSoundR">
+                                            <div class="mainSR">
+                                                <dl class="mainDRT clearfix">
+                                                    <dt>
+                                                        <p>套装分类</p>
+                                                    </dt>
+                                                    <a href="#">
+                                                        录音编曲
+                                                        <span>></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        网络主播
+                                                        <span>></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        手机直播
+                                                        <span>></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        演出音箱
+                                                        <span>></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        家庭KTV
+                                                        <span>></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        影视录音
+                                                        <span>></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        乐器设备
+                                                        <span>></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        音乐欣赏
+                                                        <span>></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        会议工程
+                                                        <span>></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        家庭影院
+                                                        <span>></span>
+                                                    </a>
+                                                </dl>
+                                                <dl class="mainDRB clearfix">
+                                                    <dt>品牌精选</dt>
+                                                    <dd>
+                                                        <a href="#">
+                                                            <img src="https://img.ingping.com/images/brandlogo/L/201712181143390451354.gif" alt="" srcset="">
+                                                        </a>
+                                                        <a href="#">
+                                                            <img src="https://img.ingping.com/images/brandlogo/L/201211291637040818474.gif" alt="" srcset="">
+                                                        </a>
+                                                        <a href="#">
+                                                            <img src="https://img.ingping.com/images/brandlogo/L/201204021447480113997.gif" alt="" srcset="">
+                                                        </a>
+                                                        <a href="#">
+                                                            <img src="https://img.ingping.com/images/brandlogo/L/201805251513070144171.gif" alt="" srcset="">
+                                                        </a>
+                                                        <a href="#">
+                                                            <img src="https://img.ingping.com/images/brandlogo/L/20120406153611079582.gif" alt="" srcset="">
+                                                        </a>
+                                                        <a href="#">
+                                                            <img src="https://img.ingping.com/images/brandlogo/L/201204021443100645594.gif" alt="" srcset="">
+                                                        </a>
+                                                        <a href="#">
+                                                            <img src="https://img.ingping.com/images/brandlogo/L/201204021500350361697.gif" alt="" srcset="">
+                                                        </a>
+                                                        <a href="#">
+                                                            <img src="https://img.ingping.com/images/brandlogo/L/201204021453490257722.gif" alt="" srcset="">
+                                                        </a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                                </div>
+                            </li>
+                            <li>
+                                <div class="shopNav">
+                                    <a href="#">音响</a>
+                                    <a href="#">功放</a>
+                                    <a href="#">家庭影院</a>
+                                </div>
+                                <dl class="shopNav-dd">
+                                    <dd>
+                                        <a href="#">KTV功放</a>
+                                        <a href="#">监听音箱</a>
+                                        <a href="#">舞台音箱</a>
+                                    </dd>
+                                </dl>
+                                <div class="shopclass clearfix" >
+                                    <div class="sound clearfix">
+                                        <div class="mainSoundL">
+                                            <dl class="clearfix">
+                                                <dt>
+                                                    <a href="#">功放</a>
+                                                </dt>
+                                                <dd>
+                                                    <a href="#">KTV功效
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">会议功效
+                                                    <span>/</span>
+                                                    </a>
+                                                    <a href="#">AV功效
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">HIFI功效
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">2.0声道功效
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">5.1声道功效
+                                                        <span>/</span>
+                                                    </a>
+                                                   
+                                                </dd>
+                                            </dl>
+                                            <dl class="clearfix">
+                    
+                                                <dt>
+                                                    <a href="#">音箱</a>
+                                                </dt>
+                                                <dd>
+                                                    <a href="#">监听音箱
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">卡包音箱
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">会议音箱
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">舞台音箱
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">插卡音箱
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">吉他/贝斯音箱
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">苹果专用音箱
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">HIFI音箱
+                                                        
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">电脑音箱
+                                                        
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">手机音箱
+                                                        
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">低音炮
+                                                        
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">蓝牙音箱
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">便携式音箱
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">广场舞音箱
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">拉杆音箱
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">多媒体音箱
+                                                        <span>/</span>
+                                                    </a>
+                                                </dd>
+                                            </dl>
+                                            <dl class="clearfix">
+                                                    
+                                                <dt>
+                                                    <a href="#">家庭影院</a>
+                                                </dt>
+                                                <dd>
+                                                    <a href="#">立柱影院
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">木箱影院
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">电脑家庭影院
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">套装家庭影院
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">低音炮
+                                                        <span>/</span>
+                                                    </a>
+                                                </dd>
+                                            </dl>
+                                        </div>
+                                        <div class="mainSoundR">
+                                            <div class="mainSR">
+                                                <dl class="mainDRT clearfix">
+                                                    <dt>
+                                                        <p>套装分类</p>
+                                                    </dt>
+                                                    <a href="#">
+                                                        录音编曲
+                                                        <span>></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        网络主播
+                                                        <span>></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        手机直播
+                                                        <span>></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        演出音箱
+                                                        <span>></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        家庭KTV
+                                                        <span>></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        影视录音
+                                                        <span>></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        乐器设备
+                                                        <span>></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        音乐欣赏
+                                                        <span>></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        会议工程
+                                                        <span>></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        家庭影院
+                                                        <span>></span>
+                                                    </a>
+                                                </dl>
+                                                <dl class="mainDRB clearfix">
+                                                    <dt>品牌精选</dt>
+                                                    <dd>
+                                                        <a href="#">
+                                                            <img src="https://img.ingping.com/images/brandlogo/L/201712181143390451354.gif" alt="" srcset="">
+                                                        </a>
+                                                        <a href="#">
+                                                            <img src="https://img.ingping.com/images/brandlogo/L/201204021452530468834.gif" alt="" srcset="">
+                                                        </a>
+                                                        <a href="#">
+                                                            <img src="https://img.ingping.com/images/brandlogo/L/201204021530510083856.gif" alt="" srcset="">
+                                                        </a>
+                                                        <a href="#">
+                                                            <img src="https://img.ingping.com/images/brandlogo/L/201406251359000133239.jpg" alt="" srcset="">
+                                                        </a>
+                                                        <a href="#">
+                                                            <img src="https://img.ingping.com/images/brandlogo/L/201204021506480803160.gif" alt="" srcset="">
+                                                        </a>
+                                                        <a href="#">
+                                                            <img src="https://img.ingping.com/images/brandlogo/L/201204021454060023275.gif" alt="" srcset="">
+                                                        </a>
+                                                        <a href="#">
+                                                            <img src="https://img.ingping.com/images/brandlogo/L/201304151111520394125.gif" alt="" srcset="">
+                                                        </a>
+                                                        <a href="#">
+                                                            <img src="https://img.ingping.com/images/brandlogo/L/20130313110104051656.jpg" alt="" srcset="">
+                                                        </a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                                </div>
+                                
+                            </li>
+                            <li>
+                                <div class="shopNav">
+                                    <a href="#">键盘</a>
+                                    <a href="#">吉他</a>
+                                    <a href="#">贝司</a>
+                                </div>
+                                <dl class="shopNav-dd">
+                                    <dd>
+                                        <a href="#">MIDI键盘</a>
+                                        <a href="#">名谣吉他</a>
+                                        <a href="#">架子鼓</a>
+                                    </dd>
+                                </dl>
+                                <div class="shopclass clearfix" >
+                                    <div class="sound clearfix">
+                                        <div class="mainSoundL">
+                                            <dl class="clearfix">
+                                                <dt>
+                                                    <a href="#">键盘</a>
+                                                </dt>
+                                                <dd>
+                                                    <a href="#">MIDI键盘
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">编曲键盘
+                                                    <span>/</span>
+                                                    </a>
+                                                    <a href="#">合成器
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">MIDI控制器
+                                                        <span>/</span>
+                                                    </a>
+                                                    
+                                                </dd>
+                                            </dl>
+                                            <dl class="clearfix">
+                                                    
+                                                <dt>
+                                                    <a href="#">琴类</a>
+                                                </dt>
+                                                <dd>
+                                                    <a href="#">电钢琴
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">电子琴
+                                                        <span>/</span>
+                                                    </a>
+                                                    
+                                                </dd>
+                                            </dl>
+                                            <dl class="clearfix">
+                                                    
+                                                <dt>
+                                                    <a href="#">吉他</a>
+                                                </dt>
+                                                <dd>
+                                                    <a href="#">民谣吉他
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">尤克里里
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">电吉他
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">古典吉他
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">电箱吉他
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">数字吉他
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">电吉他效果器
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">电箱吉他效果器
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">吉他音箱
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">教音器/变道夹
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">吉他录音套装
+                                                        <span>/</span>
+                                                    </a>
+                                                    
+                                                </dd>
+                                            </dl>
+                                            <dl class="clearfix">
+                                                    
+                                                <dt>
+                                                    <a href="#">贝司</a>
+                                                </dt>
+                                                <dd>
+                                                    <a href="#">电贝司
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">贝司效果器
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">贝司音箱
+                                                        <span>/</span>
+                                                    </a>
+                                                </dd>
+                                            </dl>
+                                            <dl class="clearfix">
+                                                    
+                                                <dt>
+                                                    <a href="#">鼓类</a>
+                                                </dt>
+                                                <dd>
+                                                    <a href="#">电子鼓
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">架子鼓
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">非洲鼓
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">戈邦鼓
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">箱鼓
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">康佳鼓
+                                                        <span>/</span>
+                                                    </a>
+                                                </dd>
+                                            </dl>
+                                        </div>
+                                        <div class="mainSoundR">
+                                            <div class="mainSR">
+                                                <dl class="mainDRT clearfix">
+                                                    <dt>
+                                                        <p>套装分类</p>
+                                                    </dt>
+                                                    <a href="#">
+                                                        录音编曲
+                                                        <span>></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        网络主播
+                                                        <span>></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        手机直播
+                                                        <span>></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        演出音箱
+                                                        <span>></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        家庭KTV
+                                                        <span>></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        影视录音
+                                                        <span>></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        乐器设备
+                                                        <span>></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        音乐欣赏
+                                                        <span>></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        会议工程
+                                                        <span>></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        家庭影院
+                                                        <span>></span>
+                                                    </a>
+                                                </dl>
+                                                <dl class="mainDRB clearfix">
+                                                    <dt>品牌精选</dt>
+                                                    <dd>
+                                                        <a href="#">
+                                                            <img src="https://img.ingping.com/images/brandlogo/L/201204021447130848835.gif" alt="" srcset="">
+                                                        </a>
+                                                        <a href="#">
+                                                            <img src="https://img.ingping.com/images/brandlogo/L/201204021459080170153.gif" alt="" srcset="">
+                                                        </a>
+                                                        <a href="#">
+                                                            <img src="https://img.ingping.com/images/brandlogo/L/201204021523530298295.gif" alt="" srcset="">
+                                                        </a>
+                                                        <a href="#">
+                                                            <img src="https://img.ingping.com/images/brandlogo/L/201204021454060023275.gif" alt="" srcset="">
+                                                        </a>
+                                                        <a href="#">
+                                                            <img src="https://img.ingping.com/images/brandlogo/L/20120402144446099571.gif" alt="" srcset="">
+                                                        </a>
+                                                        <a href="#">
+                                                            <img src="https://img.ingping.com/images/brandlogo/L/201204021446380097787.gif" alt="" srcset="">
+                                                        </a>
+                                                        <a href="#">
+                                                            <img src="https://img.ingping.com/images/brandlogo/L/201204021452530468834.gif" alt="" srcset="">
+                                                        </a>
+                                                        <a href="#">
+                                                            <img src="https://img.ingping.com/images/brandlogo/L/201506031544280190484.gif" alt="" srcset="">
+                                                        </a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                                </div>
+                            </li>
+                            <li>
+                                <div class="shopNav">
+                                    <a href="#">影视录音</a>
+                                    <a href="#">点歌机</a>
+                                    <a href="#">播放器</a>
+                                </div>
+                                <dl class="shopNav-dd">
+                                    <dd>
+                                        <a href="#">录音机</a>
+                                        <a href="#">一体点歌机</a>
+                                        <a href="#">触摸屏</a>
+                                    </dd>
+                                </dl>
+                                <div class="shopclass clearfix" >
+                                    <div class="sound clearfix">
+                                        <div class="mainSoundL">
+                                            <dl class="clearfix">
+                                                <dt>
+                                                    <a href="#">影音录音</a>
+                                                </dt>
+                                                <dd>
+                                                    <a href="#">录音机
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">影视录音麦克风
+                                                    <span>/</span>
+                                                    </a>
+                                                    <a href="#">影视录音配件
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">监听耳机
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">平衡线
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">HDMI线
+                                                        <span>/</span>
+                                                    </a>
+                                                    
+                                                </dd>
+                                            </dl>
+                                            <dl class="clearfix">
+                                                    
+                                                <dt>
+                                                    <a href="#">KTV点歌机</a>
+                                                </dt>
+                                                <dd>
+                                                    <a href="#">一体式点歌机
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">分体式点歌机
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">桌面式点歌机
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">落地式点歌机
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">家庭KTV
+                                                        <span>/</span>
+                                                    </a>
+                                                    
+                                                </dd>
+                                            </dl>
+                                            <dl class="clearfix">
+                                                    
+                                                <dt>
+                                                    <a href="#">KTV触摸屏</a>
+                                                </dt>
+                                                <dd>
+                                                    <a href="#">落地触摸屏
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">桌面触摸屏
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">19寸触摸屏
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">22寸触摸屏
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">触摸屏支架
+                                                        <span>/</span>
+                                                    </a>
+                                                </dd>
+                                            </dl>
+                                            <dl class="clearfix">
+                                                    
+                                                <dt>
+                                                    <a href="#">播放器</a>
+                                                </dt>
+                                                <dd>
+                                                    <a href="#">音乐播放器
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">DVD播放器
+                                                        <span>/</span>
+                                                    </a>
+                                                </dd>
+                                            </dl>
+                                            <dl class="clearfix">
+                                                    
+                                                <dt>
+                                                    <a href="#">打碟机</a>
+                                                </dt>
+                                                <dd>
+                                                    <a href="#">便携式打碟机
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">台式打碟机
+                                                        <span>/</span>
+                                                    </a>
+                                                </dd>
+                                            </dl>
+                                        </div>
+                                        <div class="mainSoundR">
+                                            <div class="mainSR">
+                                                <dl class="mainDRT clearfix">
+                                                    <dt>
+                                                        <p>套装分类</p>
+                                                    </dt>
+                                                    <a href="#">
+                                                        录音编曲
+                                                        <span>></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        网络主播
+                                                        <span>></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        手机直播
+                                                        <span>></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        演出音箱
+                                                        <span>></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        家庭KTV
+                                                        <span>></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        影视录音
+                                                        <span>></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        乐器设备
+                                                        <span>></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        音乐欣赏
+                                                        <span>></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        会议工程
+                                                        <span>></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        家庭影院
+                                                        <span>></span>
+                                                    </a>
+                                                </dl>
+                                                <dl class="mainDRB clearfix">
+                                                    <dt>品牌精选</dt>
+                                                    <dd>
+                                                        <a href="#">
+                                                            <img src="https://img.ingping.com/images/brandlogo/L/201405191731260242163.jpg" alt="" srcset="">
+                                                        </a>
+                                                        <a href="#">
+                                                            <img src="https://img.ingping.com/images/brandlogo/L/201301182033570710481.gif" alt="" srcset="">
+                                                        </a>
+                                                        <a href="#">
+                                                            <img src="https://img.ingping.com/images/brandlogo/L/201309051140110137450.gif" alt="" srcset="">
+                                                        </a>
+                                                        <a href="#">
+                                                            <img src="https://img.ingping.com/images/brandlogo/L/201204021454060023275.gif" alt="" srcset="">
+                                                        </a>
+                                                        <a href="#">
+                                                            <img src="https://img.ingping.com/images/brandlogo/L/201204021638150284428.gif" alt="" srcset="">
+                                                        </a>
+                                                        <a href="#">
+                                                            <img src="https://img.ingping.com/images/brandlogo/L/201204021443240076723.gif" alt="" srcset="">
+                                                        </a>
+                                                        <a href="#">
+                                                            <img src="https://img.ingping.com/images/brandlogo/L/20130326141325010188.gif" alt="" srcset="">
+                                                        </a>
+                                                        <a href="#">
+                                                            <img src="https://img.ingping.com/images/brandlogo/L/201402211646410875743.jpg" alt="" srcset="">
+                                                        </a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                                </div>
+                            </li>
+                            <li>
+                                <div class="shopNav">
+                                    <a href="#">话放</a>
+                                    <a href="#">耳放</a>
+                                    <a href="#">效果器</a>
+                                </div>
+                                <dl class="shopNav-dd">
+                                    <dd>
+                                        <a href="#">模拟话放</a>
+                                        <a href="#">专业耳放</a>
+                                        <a href="#">吉他效果器</a>
+                                    </dd>
+                                </dl>
+                                <div class="shopclass clearfix" >
+                                    <div class="sound clearfix">
+                                        <div class="mainSoundL">
+                                            <dl class="clearfix">
+                                                <dt>
+                                                    <a href="#">话放</a>
+                                                </dt>
+                                                <dd>
+                                                    <a href="#">模拟话放
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">数字话放
+                                                    <span>/</span>
+                                                    </a>
+                                                    <a href="#">电子管话放
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">单通道话放
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">双声道话放
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">带EQ话放
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">带压缩话放
+                                                        <span>/</span>
+                                                    </a>
+                                                    
+                                                </dd>
+                                            </dl>
+                                            <dl class="clearfix">
+                                                    
+                                                <dt>
+                                                    <a href="#">耳放</a>
+                                                </dt>
+                                                <dd>
+                                                    <a href="#">电子管耳放
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">专业耳放
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">HIFI耳放
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">便携式耳放
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">数字耳放
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">模拟耳放
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">单通道耳放
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">双通道耳放
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">多通道耳放
+                                                        <span>/</span>
+                                                    </a>
+                                                
+                                                </dd>
+                                            </dl>
+                                            <dl class="clearfix">
+                                                    
+                                                <dt>
+                                                    <a href="#">效果器</a>
+                                                </dt>
+                                                <dd>
+                                                    <a href="#">电吉他效果器
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">电箱吉他效果器
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">贝司效果器
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">人声效果器
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">演出效果器
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">KTV效果器
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">录音效果器
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">混音器
+                                                        <span>/</span>
+                                                    </a>
+                                                    
+                                                </dd>
+                                            </dl>
+                                            
+                                        </div>
+                                        <div class="mainSoundR">
+                                            <div class="mainSR">
+                                                <dl class="mainDRT clearfix">
+                                                    <dt>
+                                                        <p>套装分类</p>
+                                                    </dt>
+                                                    <a href="#">
+                                                        录音编曲
+                                                        <span>></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        网络主播
+                                                        <span>></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        手机直播
+                                                        <span>></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        演出音箱
+                                                        <span>></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        家庭KTV
+                                                        <span>></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        影视录音
+                                                        <span>></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        乐器设备
+                                                        <span>></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        音乐欣赏
+                                                        <span>></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        会议工程
+                                                        <span>></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        家庭影院
+                                                        <span>></span>
+                                                    </a>
+                                                </dl>
+                                                <dl class="mainDRB clearfix">
+                                                    <dt>品牌精选</dt>
+                                                    <dd>
+                                                        <a href="#">
+                                                            <img src="https://img.ingping.com/images/brandlogo/L/201303251836040919890.jpg" alt="" srcset="">
+                                                        </a>
+                                                        <a href="#">
+                                                            <img src="https://img.ingping.com/images/brandlogo/L/201205211641320708609.gif" alt="" srcset="">
+                                                        </a>
+                                                        <a href="#">
+                                                            <img src="https://img.ingping.com/images/brandlogo/L/20130905112555013241.gif" alt="" srcset="">
+                                                        </a>
+                                                        <a href="#">
+                                                            <img src="https://img.ingping.com/images/brandlogo/L/201408301632100215206.jpg" alt="" srcset="">
+                                                        </a>
+                                                        <a href="#">
+                                                            <img src="https://img.ingping.com/images/brandlogo/L/201204021447130848835.gif" alt="" srcset="">
+                                                        </a>
+                                                        <a href="#">
+                                                            <img src="https://img.ingping.com/images/brandlogo/L/201301031055190284979.gif" alt="" srcset="">
+                                                        </a>
+                                                        <a href="#">
+                                                            <img src="https://img.ingping.com/images/brandlogo/L/201408301605470384892.png" alt="" srcset="">
+                                                        </a>
+                                                        <a href="#">
+                                                            <img src="https://img.ingping.com/images/brandlogo/L/20150320151152026259.gif" alt="" srcset="">
+                                                        </a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                            </div>
+                            </li>
+                            <li>
+                                <div class="shopNav">
+                                    <a href="#">配件</a>
+                                    <a href="#">软件</a>
+                                    <a href="#">声卡调试</a>
+                                </div>
+                                <dl class="shopNav-dd">
+                                    <dd>
+                                        <a href="#">麦克风支架</a>
+                                        <a href="#">摄像头</a>
+                                        <a href="#">录音软件</a>
+                                    </dd>
+                                </dl>
+                                <div class="shopclass clearfix" >
+                                    <div class="sound clearfix">
+                                        <div class="mainSoundL">
+                                            <dl class="clearfix">
+                                                <dt>
+                                                    <a href="#">音响配件</a>
+                                                </dt>
+                                                <dd>
+                                                    <a href="#">音箱支架
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">音响线材
+                                                    <span>/</span>
+                                                    </a>
+                                                    <a href="#">喇叭线
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">HDMI线
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">喇叭线香蕉头
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">卡农头/座
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">转换头/座
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">时序器
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">工程机柜
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">触摸屏支架
+                                                        <span>/</span>
+                                                    </a>
+                                                    
+                                                </dd>
+                                            </dl>
+                                            <dl class="clearfix">
+                                                    
+                                                <dt>
+                                                    <a href="#">麦克风配件</a>
+                                                </dt>
+                                                <dd>
+                                                    <a href="#">麦克风支架
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">麦克风线材
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">麦克风夹子
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">放风棉
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">防燥网/防风屏
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">防滑圈
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">麦克风音头
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">防震架
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">麦克风网头
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">便携包/箱/盒
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">供电器
+                                                        <span>/</span>
+                                                    </a>
+                                                </dd>
+                                            </dl>
+                                            <dl class="clearfix">
+                                                    
+                                                <dt>
+                                                    <a href="#">乐器配件</a>
+                                                </dt>
+                                                <dd>
+                                                    <a href="#">吉他/贝司弦
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">吉他线材
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">MIDI线材
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">拨片
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">校音器/变调夹
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">节拍器
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">踏板
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">鼓棒/鼓凳/琴
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">吉他盒/包
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">吉他背带
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">效果器便携包
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">卷弦器
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">练习鼓垫
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">指力训练器
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">乐谱支架
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">电子琴支架
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">吉他支架
+                                                        <span>/</span>
+                                                    </a>
+                                                </dd>
+                                            </dl>
+                                            <dl class="clearfix">
+                                                    
+                                                <dt>
+                                                    <a href="#">其他配件</a>
+                                                </dt>
+                                                <dd>
+                                                    <a href="#">摄像头
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">补光灯
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">耳机绕线器
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">蓝牙设备
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">电池
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">耳机便携盒
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">耳机线材
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">耳机套/耳塞棉
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">手机线材
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">USB数据线
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">收藏品/纪念品
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">手机转换器
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">手机镜头
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">手机支架
+                                                        <span>/</span>
+                                                    </a>
+                                                    
+                                                </dd>
+                                            </dl>
+                                            <dl class="clearfix">
+                                                    
+                                                <dt>
+                                                    <a href="#">软件/教材</a>
+                                                </dt>
+                                                <dd>
+                                                    <a href="#">录音软件
+                                                        <span>/</span>
+                                                    </a>
+                                                    <a href="#">吉他教材
+                                                        <span>/</span>
+                                                    </a>
+                                                    
+                                                    
+                                                </dd>
+                                            </dl>
+                                        </div>
+                                        <div class="mainSoundR">
+                                            <div class="mainSR">
+                                                <dl class="mainDRT clearfix">
+                                                    <dt>
+                                                        <p>套装分类</p>
+                                                    </dt>
+                                                    <a href="#">
+                                                        录音编曲
+                                                        <span>></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        网络主播
+                                                        <span>></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        手机直播
+                                                        <span>></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        演出音箱
+                                                        <span>></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        家庭KTV
+                                                        <span>></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        影视录音
+                                                        <span>></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        乐器设备
+                                                        <span>></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        音乐欣赏
+                                                        <span>></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        会议工程
+                                                        <span>></span>
+                                                    </a>
+                                                    <a href="#">
+                                                        家庭影院
+                                                        <span>></span>
+                                                    </a>
+                                                </dl>
+                                                <dl class="mainDRB clearfix">
+                                                    <dt>品牌精选</dt>
+                                                    <dd>
+                                                        <a href="#">
+                                                            <img src="https://img.ingping.com/images/brandlogo/L/201204021550410023270.gif" alt="" srcset="">
+                                                        </a>
+                                                        <a href="#">
+                                                            <img src="https://img.ingping.com/images/brandlogo/L/201712181143390451354.gif" alt="" srcset="">
+                                                        </a>
+                                                        <a href="#">
+                                                            <img src="https://img.ingping.com/images/brandlogo/L/20120402173634010644.gif" alt="" srcset="">
+                                                        </a>
+                                                        <a href="#">
+                                                            <img src="https://img.ingping.com/images/brandlogo/L/201306151216260722653.jpg" alt="" srcset="">
+                                                        </a>
+                                                        <a href="#">
+                                                            <img src="https://img.ingping.com/images/brandlogo/L/201409021625070082737.jpg" alt="" srcset="">
+                                                        </a>
+                                                        <a href="#">
+                                                            <img src="https://img.ingping.com/images/brandlogo/L/201412201017440972922.gif" alt="" srcset="">
+                                                        </a>
+                                                        <a href="#">
+                                                            <img src="https://img.ingping.com/images/brandlogo/L/201209051450550003595.jpg" alt="" srcset="">
+                                                        </a>
+                                                        <a href="#">
+                                                            <img src="https://img.ingping.com/images/brandlogo/L/201204021520580906538.gif" alt="" srcset="">
+                                                        </a>
+                                                    </dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+    <!-- 中部导航 -->
+                <ul class="middleNav">
+                    <li>
+                        <a href="#" class="sA">网站首页</a>
+                    </li>
+                    <li>
+                        <a href="#" class="sA">套装方案</a>
+                        <em></em>
+                        <div class="second1">
+                            <span>
+                                <a href="#">录音编曲</a>
+                            </span>
+                            <span>
+                                <a href="#">网络主播</a>
+                            </span>
+                            <span>
+                                <a href="#">手机直播</a>
+                            </span>
+                            <span>
+                                <a href="#">演出音响</a>
+                            </span>
+                            <span  class="sec">
+                                <a href="#">家庭KTV</a>
+                            </span>
+                            <span>
+                                <a href="#">吉他乐器</a>
+                            </span>
+                            <span>
+                                <a href="#">影视录音</a>
+                            </span>
+                            <span>
+                                <a href="#">音乐欣赏</a>
+                            </span>
+                            <span>
+                                <a href="#">家庭影院</a>
+                            </span>
+                            <span  class="sec">
+                                <a href="#">会议工程</a>
+                            </span>
+                            <span  class="sec">
+                                <a href="#" class="more">更多 ></a>
+                            </span>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" class="sA">活动专区</a>
+                    </li>
+                    <li>
+                        <a href="#" class="sA">品牌专区</a>
+                    </li>
+                    <li>
+                        <a href="#" class="sA">音平资讯</a>
+                    </li>
+                    <li>
+                        <a href="#" class="sA">音平分享</a>
+                    </li>
+                    <li>
+                        <a href="#" class="sA">音师傅</a>
+                    </li>
+                </ul>
+    <!-- 小轮播图 -->
+                <div class="lbanner">
+                    <div class="lbanner-box">
+                        <div class="lbanner-img">
+                            <a href="#">
+                                <img src="https://img.ingping.com/images/ad_images/201706/201706161558410268436.jpg" alt="" srcset="">
+                            </a>
+                            <a href="#">
+                                <img src="https://img.ingping.com/images/ad_images/201706/201706161558540282640.jpg" alt="" srcset="">
+                            </a>
+                            <a href="#">
+                                <img src="https://img.ingping.com/images/ad_images/201710/201710071909500143943.jpg" alt="" srcset="">
+                            </a>
+                            <a href="#">
+                                <img src="https://img.ingping.com/images/ad_images/201706/201706161558410268436.jpg" alt="" srcset="">
+                            </a>
+                        </div>
+
+                        <div class="lbtn">
+                            <a  class="lbtnl"></a>
+                            <a  class="lbtnr"></a>
+                        </div>
+                    </div>
+                </div>
+                <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+                <script src="./script/lBanner.js"></script>
+            </div>
+        </div>
+    </header>
+    <!-- 头部结束 -->
+
+    <!-- 最大的轮播图那里 -->
+
+    <div class="banner">
+        <ul>
+            <li class="active">
+                <a href="#" class="container">
+                    <img src="https://img.ingping.com/images/ad_images/201812/201812061103400575201.jpg" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="#" class="container">
+                    <img src="https://img.ingping.com/images/ad_images/201811/201811302214280924121.jpg" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="#" class="container">
+                    <img src="https://img.ingping.com/images/ad_images/201812/201812061104300756901.jpg" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="#" class="container">
+                    <img src="https://img.ingping.com/images/ad_images/201812/201812071031180922183.jpg" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="#" class="container">
+                    <img src="https://img.ingping.com/images/ad_images/201812/201812071032440139539.jpg" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="#" class="container">
+                    <img src="https://img.ingping.com/images/ad_images/201812/201812071038580712581.jpg" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="#" class="container">
+                    <img src="https://img.ingping.com/images/ad_images/201812/201812071040520834745.jpg" alt="">
+                </a>
+            </li>
+        </ul>
+        <p class="indexBtn">
+        </p>
+    </div>
+    <script src="./script/mainbanner.js"></script>
+    <div class="abody"></div>
+</body>
+</html>
