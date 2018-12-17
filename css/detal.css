@@ -1,0 +1,51 @@
+.detalbox {
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 1200px;
+  margin-right: 40px; }
+  .detalbox .imgbox {
+    width: 260px;
+    float: left;
+    border-radius: 10px 0px 0px 10px;
+    padding: 10px 10px 10px; }
+    .detalbox .imgbox img {
+      width: 240px;
+      border-radius: 20px 20px 0px 0px;
+      height: 370px; }
+  .detalbox .datalcot {
+    width: 900px;
+    float: left;
+    padding: 10px 20px 0 10px;
+    height: 370px;
+    box-shadow: 10px #dddddd;
+    border: 2px solid #999999;
+    margin-top: 10px;
+    border-radius: 20px 20px 0 0; }
+    .detalbox .datalcot .dataltit {
+      width: 800px;
+      margin-top: 60px;
+      font-size: 20px;
+      color: #ff5500;
+      margin-bottom: 30px;
+      padding-left: 50px; }
+    .detalbox .datalcot .datat {
+      width: 800px;
+      margin-top: 30px;
+      font-size: 18px;
+      color: #999999;
+      margin-bottom: 30px;
+      margin-bottom: 100px;
+      padding-left: 50px; }
+    .detalbox .datalcot .nowval {
+      font-size: 18px;
+      color: red;
+      line-height: 50px;
+      height: 50px;
+      float: left;
+      width: 30%;
+      padding-left: 50px; }
+    .detalbox .datalcot .cl {
+      text-decoration: line-through;
+      color: orange; }
+    .detalbox .datalcot .nr {
+      float: none !important; }
